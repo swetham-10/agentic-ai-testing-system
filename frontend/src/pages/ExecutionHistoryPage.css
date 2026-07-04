@@ -1,0 +1,167 @@
+.history-container {
+
+    padding: 30px;
+
+    min-height: 100vh;
+
+    background:
+        linear-gradient(135deg,
+            #0f172a,
+            #1e293b);
+
+    color: white;
+}
+
+.history-title {
+
+    font-size: 38px;
+
+    font-weight: bold;
+
+    margin-bottom: 25px;
+}
+
+.history-card {
+
+    background:
+        rgba(255,
+            255,
+            255,
+            0.08);
+
+    backdrop-filter: blur(12px);
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 10px 30px rgba(0,
+            0,
+            0,
+            0.3);
+}
+
+.history-table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+.history-table thead {
+
+    background:
+        linear-gradient(90deg,
+            #2563eb,
+            #7c3aed);
+}
+
+.history-table th {
+
+    padding: 18px;
+
+    text-align: left;
+
+    font-size: 15px;
+
+    color: white;
+}
+
+.history-table td {
+
+    padding: 18px;
+
+    border-bottom:
+        1px solid rgba(255,
+            255,
+            255,
+            0.08);
+}
+
+.history-table tbody tr {
+
+    transition: 0.3s;
+}
+
+.history-table tbody tr:hover {
+
+    background:
+        rgba(255,
+            255,
+            255,
+            0.08);
+}
+
+.status-pass {
+
+    background: #22c55e;
+
+    color: white;
+
+    padding: 6px 14px;
+
+    border-radius: 20px;
+
+    font-weight: bold;
+}
+
+.status-fail {
+
+    background: #ef4444;
+
+    color: white;
+
+    padding: 6px 14px;
+
+    border-radius: 20px;
+
+    font-weight: bold;
+}
+
+.history-card {
+
+    margin-top: 20px;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+.history-table tbody tr:hover {
+
+    background-color:
+        rgba(255, 255, 255, 0.05);
+
+    transition: 0.3s;
+}
+
+.pdf-btn {
+
+    background:
+        linear-gradient(90deg,
+            #2563eb,
+            #7c3aed);
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 24px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-weight: 600;
+
+    font-size: 14px;
+}
+
+.pdf-btn:hover {
+
+    opacity: 0.9;
+}
