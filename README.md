@@ -179,7 +179,7 @@ Spring Boot Backend
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/agentic-ai-testing-system.git
+git clone https://github.com/swetham-10/agentic-ai-testing-system.git
 ```
 
 ---
